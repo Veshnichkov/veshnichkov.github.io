@@ -71,17 +71,3 @@ function start() {
     console.log(data);
   }, {once: true})
 }
-
-let FPSCounter = 0
-function FPSIncrementer() {
-  FPSCounter++
-
-  requestAnimationFrame(arguments.callee)
-}; FPSIncrementer()
-
-function FPSViewer() {
-  document.querySelector('.FPS').innerHTML = FPSCounter * 2
-  FPSCounter = 0
-
-  setTimeout(arguments.callee, 500)
-}; FPSViewer()
