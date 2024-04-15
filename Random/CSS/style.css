@@ -9,14 +9,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 40vh;
+  min-height: 30vh;
   background: #13161a;
   color: white;
 }
 
 .app {
   position: relative;
-  width: 560px;
+  width: 360px;
   background: #1b1f24;
   border-radius: 10px;
 }
