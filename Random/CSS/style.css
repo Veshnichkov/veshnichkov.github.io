@@ -11,7 +11,7 @@ body {
   align-items: center;
   min-height: 30vh;
   background: var(--tg-theme-bg-color);
-  color: var(--tg-theme-text-color);
+  color: var(--tg-theme-bg-color);
   /*
   background: #212121;
   color: rgb(0, 0, 0);
@@ -27,6 +27,7 @@ body {
 }
 
 .app .pointer {
+  background-color: var(--tg-theme-text-color);
   position: absolute;
   z-index: 1;
   left: 50%;
@@ -91,7 +92,7 @@ body {
   border: none;
   border-radius: 5px;
   outline: none;
-  background: #ffffff;
+  background: var(--tg-theme-text-color);
   color: inherit;
   font-size: 16px;
   font-weight: 500;
